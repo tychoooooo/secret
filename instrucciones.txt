@@ -1,0 +1,10 @@
+usa esto para descifrar:
+openssl enc -aes-256-cbc -d -pbkdf2 -in secret.enc \
+    -out archivo_descifrado.txt -a
+
+
+
+
+
+pass: duoc.1234
+
