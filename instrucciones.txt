@@ -8,3 +8,7 @@ openssl enc -aes-256-cbc -d -pbkdf2 -in secret.enc \
 
 pass: duoc.1234
 
+
+
+
+para convertir la firma a binario: openssl base64 -d -in firma.b64 -out firma.bin
